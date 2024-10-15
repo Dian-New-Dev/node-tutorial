@@ -19,7 +19,7 @@
 - Base sólida em backend;
 - Skills para estabelecer ambiente backend em meu projeto de <a href="https://github.com/Dian-New-Dev/mini-blog">mini-blog</a>.
 
-## Passos
+## Passos para estabelecer o ambiente de desenvolvimento
 
 1) instalar/atualizar node.js;
 
@@ -78,3 +78,5 @@ SET DEBUG=nome-do-projeto:* & npm start
 # Run nome-do-projeto on Windows with PowerShell
 SET DEBUG=nome-do-projeto:* | npm start
 ```
+
+## Passos para criar a aplicação "Local Library Website" 
