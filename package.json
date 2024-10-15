@@ -7,7 +7,5 @@
   },
   "scripts": {
     "lint": "eslint src/js"
+  }
 }
-}
-
-

@@ -101,3 +101,45 @@ SET DEBUG=express-locallibrary-tutorial:* & npm start
 ```
 npm install --save-dev nodemon
 ```
+
+5) Adicionar script no package.json para rodar nodemon
+
+```
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "SET DEBUG=express-locallibrary-tutorial:* & npm run devstart"
+  },
+```
+
+6) A partir de agora, inicia-se servidor com 
+```
+npm run devstart
+```
+
+7) A estrutura de arquivos deve estar assim:
+
+```
+express-locallibrary-tutorial
+    app.js
+    /bin
+        www
+    package.json
+    package-lock.json
+    /node_modules
+        [about 6700 subdirectories and files]
+    /public
+        /images
+        /javascripts
+        /stylesheets
+            style.css
+    /routes
+        index.js
+        users.js
+    /views
+        error.pug
+        index.pug
+        layout.pug
+```
+
+8) 
