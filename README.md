@@ -143,3 +143,19 @@ express-locallibrary-tutorial
 ```
 
 8) 
+
+## Aprendizado
+
+- Após seguir os passos do tutorial, percebi que ele estava indo para um lado que não parecia adequado para meu projeto.
+
+- Após alguma pesquisa, descobri a diferenteça entre
+
+1) SSR: O servidor possui a lógica para renderizar o HTML, o qual é enviado pronto para o cliente. O carregamento inicial é mais rapido, mas a interatividade é mais limitada.
+- Aqui o servidor é mais utilizado, pois ele renderiza cada página antes de enviar.
+- Recomendado para: projetos que precisam de melhor SEO, blogs, notícias, e-commerce
+
+2) CSR: o cliente possui a lógica que gera o HTML no frontend. O carregamento inicial pode ser mais demorado, mas a interatividade é mais rapida e não exige recarregamentos.
+- Aqui há menos carga sobre o servidor, que apenas envia dados em JSON a serem renderizados pelo front.
+- Aplicações interativas, SPAs, dashboards.
+
+- Conclusão: como construi meu blog com React, um tutorial voltado a SSR não me é apropriado. Voltarei a este tutorial quando precisar aprender SSR.
